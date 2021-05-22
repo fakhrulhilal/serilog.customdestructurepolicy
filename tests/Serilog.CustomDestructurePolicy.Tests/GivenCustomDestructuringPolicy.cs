@@ -187,7 +187,7 @@ namespace Serilog.CustomDestructurePolicy.Tests
             var properties = ((StructureValue)logEvent.Properties["Data"]).Properties;
             AssertLogProperty(properties, nameof(Test.ReadOnly), "\"never changed\"");
             AssertLogProperty(properties, nameof(Test.Default), "\"world\"");
-            AssertLogProperty(properties, nameof(Test.Name), $"\"*****\"");
+            AssertLogProperty(properties, nameof(Test.Name), "\"*****\"");
         }
 
         private static void AssertLogProperty(IReadOnlyList<LogEventProperty> logProperties, string propertyName,

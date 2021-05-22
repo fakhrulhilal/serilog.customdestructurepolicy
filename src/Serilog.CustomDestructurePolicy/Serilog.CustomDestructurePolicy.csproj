@@ -7,8 +7,8 @@
     <Nullable>enable</Nullable>
     <Authors>Fakhrulhilal Maktum</Authors>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <RepositoryUrl>https://github.com/fakhrulhilal/serilog.customdestructure</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/fakhrulhilal/serilog.customdestructure</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/fakhrulhilal/serilog.customdestructurepolicy</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/fakhrulhilal/serilog.customdestructurepolicy</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>log, serilog, destructure, record, custom rule, masking</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -36,6 +36,9 @@ Initial release with builtin features:
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
